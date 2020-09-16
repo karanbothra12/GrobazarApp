@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorFeb">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_delete_white_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/delete_icon"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:layout_marginRight="10dp"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_foreground"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/cart_image"
+            android:layout_marginRight="10dp"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cart_item_name"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:text="Food 01"
+                android:textStyle="italic"
+                />
+
+            <TextView
+                android:id="@+id/cart_item_actual_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                android:text=" 100"
+                android:textAllCaps="true"
+                android:textStyle="italic" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:id="@+id/btn_quantity"
+                android:layout_margin="10dp"
+                app:textSize="8sp"
+                app:backGroundColor="@color/colorAccent"
+                app:initialNumber="1"
+                app:finalNumber="20">
+            </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:src="@color/colorFeb"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cart_item_price"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:text="100"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:id="@+id/cartdelete"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_delete_black_24dp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

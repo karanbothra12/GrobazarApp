@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Activities.Documentation">
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_bg_round_home"
+        android:text="About Us"
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btntc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg_round_home"
+        android:text="Terms And Conditions"
+        android:layout_marginBottom="20dp"
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg_round_home"
+        android:text="Privacy Policy "
+        android:typeface="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@color/basecolor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg_round_home"
+        android:text="Email Us "
+        android:typeface="monospace"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg_round_home"
+        android:text="Call Us "
+        android:typeface="monospace"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

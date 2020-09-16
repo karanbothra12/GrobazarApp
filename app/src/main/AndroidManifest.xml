@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.grobazar.grobazarapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.grobazar.grobazarapp.Activities.PastOrderBill"></activity>
+        <activity android:name="com.grobazar.grobazarapp.Activities.Documentation" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.ManageAddress" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.FoodDetail" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.Checkout" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.CartActivity" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.FoodList" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.SubCategory" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.Bill" />
+        <activity
+            android:name="com.grobazar.grobazarapp.Activities.Bottom_Navigation"
+            android:label="@string/title_activity_bottom__navigation" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.Home" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.Signup" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.VerificationActivity" />
+        <activity android:name="com.grobazar.grobazarapp.Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.grobazar.grobazarapp.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.grobazar.grobazarapp.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.grobazar.grobazarapp.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.grobazar.grobazarapp.NotificationService"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="your.app.domain.NotificationService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+    </application>
+
+</manifest>

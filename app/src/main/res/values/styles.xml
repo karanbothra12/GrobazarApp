@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MyActionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+
+        <item name="android:actionBarStyle">@style/myactionButtonStyle</item>
+        <item name="actionButtonStyle">@style/myactionButtonStyle</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+      </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+
+        <item name="android:actionBarStyle">@style/myactionButtonStyle</item>
+        <item name="actionButtonStyle">@style/myactionButtonStyle</item>
+
+    </style>
+
+    <style name="myactionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">24dp</item>
+        <item name="android:maxWidth">30dp</item>
+        <item name="android:width">30dp</item>
+
+
+
+
+
+    </style>
+
+
+
+    <style name="AppTheme.PopupOverlayFood" parent="ThemeOverlay.AppCompat.Light" >
+
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:actionBarStyle">@style/myactionButtonStyle</item>
+        <item name="actionButtonStyle">@style/myactionButtonStyle</item>
+
+    </style>
+
+    <style name="AppTheme.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+</resources>

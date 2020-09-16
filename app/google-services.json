@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "78371074254",
+    "firebase_url": "https://grobazarapp.firebaseio.com",
+    "project_id": "grobazarapp",
+    "storage_bucket": "grobazarapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78371074254:android:9ea8e4697a898ddf91609f",
+        "android_client_info": {
+          "package_name": "com.example.grobazar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78371074254-nvdp4f9v4vfoqvkiotaedd0rcunot991.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grobazar",
+            "certificate_hash": "7045d8ce18b6f29cba6615eacd21f907a96a2cfb"
+          }
+        },
+        {
+          "client_id": "78371074254-av424cf0604lpkc78chgstjlt0l67aje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grobazar",
+            "certificate_hash": "9c22ace9ed22789b00a58642a2f72eb21afba6e8"
+          }
+        },
+        {
+          "client_id": "78371074254-tp29ue3jaks98g11lmn75lbic5ob82ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzyQm_VSDwNekpZYxwrUklmGfFUduWbwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78371074254-tp29ue3jaks98g11lmn75lbic5ob82ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78371074254:android:3a4f20947328ec3991609f",
+        "android_client_info": {
+          "package_name": "com.example.grobazardelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78371074254-qu61iunphdmoh74nv2i3fg22fq1sdrn1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grobazardelivery",
+            "certificate_hash": "4acddb537977520d256c04c60abc46918fa72422"
+          }
+        },
+        {
+          "client_id": "78371074254-tp29ue3jaks98g11lmn75lbic5ob82ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzyQm_VSDwNekpZYxwrUklmGfFUduWbwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78371074254-tp29ue3jaks98g11lmn75lbic5ob82ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78371074254:android:204a1f718f7bf90d91609f",
+        "android_client_info": {
+          "package_name": "com.example.grobazarserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78371074254-akm5fsh3gpk8k5kmp5lp2cc1dcthuil7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grobazarserver",
+            "certificate_hash": "4acddb537977520d256c04c60abc46918fa72422"
+          }
+        },
+        {
+          "client_id": "78371074254-tp29ue3jaks98g11lmn75lbic5ob82ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzyQm_VSDwNekpZYxwrUklmGfFUduWbwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78371074254-tp29ue3jaks98g11lmn75lbic5ob82ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78371074254:android:ae169cb4569dfbb491609f",
+        "android_client_info": {
+          "package_name": "com.grobazar.grobazarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78371074254-ur8fgqfa95bpn6glnkqbikhvu0b8ve7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grobazar.grobazarapp",
+            "certificate_hash": "4acddb537977520d256c04c60abc46918fa72422"
+          }
+        },
+        {
+          "client_id": "78371074254-tp29ue3jaks98g11lmn75lbic5ob82ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzyQm_VSDwNekpZYxwrUklmGfFUduWbwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78371074254-tp29ue3jaks98g11lmn75lbic5ob82ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

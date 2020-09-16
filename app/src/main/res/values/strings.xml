@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Grobazar</string>
+    <string name="phonehint" />
+    <string name="hintp">Enter your Phone number</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="hintphone">Enter Your Phone Number</string>
+    <string name="Otp">Enter Otp</string>
+    <string name="RestaurantName">Enter Your Restaurant name</string>
+    <string name="personname" />
+    <string name="Pname">Enter Your Name</string>
+    <string name="email">Enter Your VAalid email</string>
+    <string name="Email">Enter Your Valid Email</string>
+    <string name="address">Address</string>
+    <string name="Restaurant">Restaurant Name</string>
+    <string name="phone">Phone No.</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_bottom__navigation">Bottom_Navigation</string>
+
+    <string name="myprofile">My_Account</string>
+    <string name="searchhint">Search Items...</string>
+    <string name="googlepay_button_content_description">\"Google Pay\"</string>
+    <string name="introone">Quickly search and add grocery to your cart</string>
+    <string name="introtwo">With one click you can add it to your cart</string>
+</resources>
